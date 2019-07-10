@@ -1,32 +1,87 @@
-#father{
-    display: flex;
-    width:500px; 
-    height:300px;
+.father{
+    width:600px; 
+    height:400px;
     margin: auto;
-    background-color:whitesmoke;
+    position: relative;
+    background-image: url('winter.jpg');
+    background-size: 100%;
+    background-blend-mode: overlay;
 }
 
-body{
-    background-color: gray;
-}
 
-.text{
+
+.text2{
+    color: whitesmoke;
     font-family: 'Raleway', 'open-sans';
-    width: 200px;
-    margin-left: 8px;
+    font-size: 18px;
+    width: 90%;
+    padding: 15px;
+    text-align: justify;
+}
+.text{
+    color: whitesmoke;
+    font-family: 'Raleway', 'open-sans';
+    font-size: 15px;
 }
 
-h2{
-    font-size: 20px;
-    padding-top: 15px;
-    margin-bottom: 20px;
-    margin-top: 10px;
+
+.header{
+    height: 80px;
+    width: 100%;
+    
 }
 
-img{
-    margin-left: 100px;
+#one{
+    margin-left: 20px;
+    margin-top: 20px;
+    width: 50%;
+    float: left;   
+}
+#two{
+    width: 80px;
+    height: 80px;
+    float: right;
+    margin-right: 10px;
 }
 
-.form{
-    display: flex;
+.colummleft{
+    width: 50%;
+    float: left;
+    text-align: center;
 }
+.colummright{
+    width: 50%;
+    float: right;
+    text-align: center;
+    padding-top: 40px;
+}
+
+[type=text]{
+    border: 0;
+    padding: 10px;
+    border-bottom: 1px solid whitesmoke;
+    background: transparent;
+}
+
+.footer{
+    width: 100%;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+button{
+    text-decoration: none;
+    border: none;
+    padding: 10px;
+    background: rgb(127, 193, 255);
+}
+
+::placeholder{
+    color: whitesmoke;
+}
+
+
